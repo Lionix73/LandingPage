@@ -1,8 +1,8 @@
 let wave;
 
 function setup() {
-  createCanvas(800, 400);
-  wave = new Wave(0, height / 2, width, 75, 300);
+  createCanvas(windowWidth, windowHeight);
+  wave = new Wave(0, windowHeight / 2, windowWidth, 75, 300);
   wave.baseColor = color(0, 50, 150, 255);
 }
 
